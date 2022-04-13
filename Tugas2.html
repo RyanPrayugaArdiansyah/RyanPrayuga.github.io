@@ -5,15 +5,19 @@
         <title>Form Data Diri Mahasiswa</title>
         <style>
             td{
-                text-align: right;
+                text-align: left;
             }
             input{
                 float: left;
             }
             span{
                 float: left;
+                letter-spacing: 0.1cm;
             }
             textarea{
+                float: left;
+            }
+            jk{
                 float: left;
             }
         </style>
@@ -25,37 +29,37 @@
         <form>
             <table>
                 <tr>
-                    <td>Nama :</td>
-                    <td><input type="text" placeholder="Masukan Nama"></td>
+                    <td>Nama </td>
+                    <td><span>:</span> <input type="text" placeholder="Masukan Nama"></td>
                 </tr>
                 <tr>
-                    <td>Nim  :</td>
-                    <td><input type="number" placeholder="Masukan Nim"></td>
+                    <td>Nim  </td>
+                    <td><span>:</span><input type="number" placeholder="Masukan Nim"></td>
                 </tr>
                 <tr>
-                    <td>Prodi : </td>
-                    <td><input type="text" placeholder="Prodi"></td>
+                    <td>Prodi  </td>
+                    <td><span>:</span><input type="text" placeholder="Prodi"></td>
                 </tr>
                 <tr>
-                    <td>Tanggal Lahir : </td>
-                    <td><input type="date"></td>
+                    <td>Tanggal Lahir  </td>
+                    <td><span>:</span><input type="date"></td>
                 </tr>
                 <tr>
-                    <td>Jenis Kelamin : </td>
-                    <td><input type="radio" name="jk">
-                        <span>Laki-laki</span> 
+                    <td>Jenis Kelamin  </td>
+                    <td><span>:</span><input type="radio" name="jk">
+                        <jk>Laki-laki</jk> 
                         
                         <input type="radio" name="jk">
-                        <span>Perempuan</span>
+                        <jk>Perempuan</jk>
                     </td>
                 </tr>
                 <tr>
-                    <td>Alamat : </td>
-                    <td><textarea placeholder="Masukan Alamat"></textarea></td>
+                    <td>Alamat  </td>
+                    <td><span>:</span><textarea placeholder="Masukan Alamat"></textarea></td>
                 </tr>
                 <tr>
-                    <td>Motto : </td>
-                    <td><textarea placeholder="Masukan Motto"></textarea></td>
+                    <td>Motto  </td>
+                    <td><span>:</span><textarea placeholder="Masukan Motto"></textarea></td>
                 </tr>
                 <tr>
                     <td></td>
