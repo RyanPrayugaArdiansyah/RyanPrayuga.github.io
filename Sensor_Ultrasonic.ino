@@ -27,7 +27,7 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0, 1);
-  lcd.print("  Ryan, Rizal, Farid, Qorib, Nada  ");
+  lcd.print("  ....  ");
   for (i = 0; i < 18; i++)
   {
   lcd.scrollDisplayLeft();
